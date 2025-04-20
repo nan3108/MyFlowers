@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Цветочный магазин</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f5;
+      color: #333;
+    }
+    header {
+      background-color: #ffdee3;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .slider {
+      display: flex;
+      overflow: hidden;
+      max-width: 100%;
+      position: relative;
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+    .slides img {
+      width: 25vw;
+      height: auto;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100vw); }
+      66% { transform: translateX(-200vw); }
+      100% { transform: translateX(0); }
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    footer {
+      background-color: #ffdee3;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Мы — цветочный магазин
+  </header>
+
+  <div class="slider">
+    <div class="slides">
+      <img src="https://loveflowers24.kz/wp-content/uploads/2022/04/buket-son-printsessy.jpg">
+      <img src="https://static.insales-cdn.com/images/products/1/4931/111006531/30572908_w640_h640_jbw4duioono.jpg">
+      <img src="https://лучшие-розы.рф/upload/iblock/7e2/7e2093591112b23dc09bee8f59633070.jpeg">
+    </div>
+  </div>
+
+  <div class="content">
+    <p>Подберем букет на любой случай: свадьбы, похороны, дни рождения и другие яркие события жизни.</p>
+    <p>Свяжитесь с нами, и мы поможем вам выбрать идеальные цветы.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Цветочный магазин. Все права защищены.
+  </footer>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
